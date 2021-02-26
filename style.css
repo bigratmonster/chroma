@@ -1,3 +1,4 @@
+@import url('https://rsms.me/inter/inter.css');
 body {
 	background-color: #212121;
 }
@@ -6,5 +7,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 95vh;
+	height: 35vh;
+}
+
+.disclaimer {
+	color: #f4f4f4;
+	font-family: 'Inter', sans-serif;
+	font-size: 1.3em;
+	padding: 2em;
 }
