@@ -39,3 +39,13 @@ a:hover {
 	color: teal;
 	text-decoration: underline;
 }
+
+.key {/* White Keyboard Key Style by www.superwebtricks.com */
+	background: #607d8b;
+	border-radius: 3px;
+	padding: 0.1em;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	margin: 0.1em;
+	font-size: 0.7em;
+}
