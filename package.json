@@ -1,0 +1,14 @@
+{
+  "name": "chroma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bigratmonster/chroma/",
+  "author": "EmeraldSnorlax <43452521+EmeraldSnorlax@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  },
+	"scripts": {
+		"build": "tsc --project ./"
+	}
+}
