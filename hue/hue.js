@@ -28,4 +28,4 @@ function doColor() {
 
 rat.onclick = (function() {
   setInterval(doColor, hueInterval);
-})
+});
