@@ -26,4 +26,6 @@ function doColor() {
   updateRat();
 }
 
-setInterval(doColor, hueInterval);
+rat.addEventListener("click", () => {
+  setInterval(doColor, hueInterval);
+});
