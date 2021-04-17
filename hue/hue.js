@@ -26,6 +26,6 @@ function doColor() {
   updateRat();
 }
 
-rat.onclick = () => {
+rat.onclick = (function() {
   setInterval(doColor, hueInterval);
-}
+})
