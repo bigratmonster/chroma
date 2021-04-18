@@ -3,11 +3,11 @@ var ratImg = document.getElementById('rat-img');
 var chroma = false;
 function toggleChroma(chroma) {
     if (!chroma) {
-        ratImg.src = './bigrat-chroma.gif';
+        ratImg.src = '../media/bigrat-chroma.gif';
         return true;
     }
     else {
-        ratImg.src = './bigrat-static.png';
+        ratImg.src = '../media/bigrat-static.png';
         return false;
     }
 }
